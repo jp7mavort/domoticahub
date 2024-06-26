@@ -1,0 +1,100 @@
+/* Imagen */
+.weAreThePeople {
+    display: block;
+    padding-top: 30px;
+    margin: auto;
+    max-width: 60%;
+    margin-bottom: 30px;
+    
+}
+
+.titulo {
+    margin: 0%;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.we {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.texto {
+    margin: auto;
+    background-color: white;
+    width: 60%;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+
+.nosotros .texto .part2 p {
+    min-width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.nosotros .texto .part2 h1 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    border-bottom: 1px solid black;
+    color: white;
+    background-color: rgb(63, 63, 63);
+}
+
+/* Cuadros MISIÓN y VISIÓN */
+.valor {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.valor .mision {
+    max-width: 40%;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.valor .mision h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(188, 56, 211);
+    color: white;
+    box-sizing: content-box;
+    margin: 0%;
+} 
+
+.valor .mision p {
+    text-align: center;
+    margin: 0%;
+    padding: 20px;
+}
+
+.valor .vision {
+    max-width: 40%;
+    background-color: white;
+}
+
+.valor .vision h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(188, 56, 211);
+    color: white;
+    box-sizing: content-box;
+    margin: 0%;
+}
+
+.valor .vision p {
+    text-align: center;
+    margin: 0%;
+    padding: 20px;
+}

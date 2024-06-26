@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Domótica</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/css2.css">
+    <link rel="stylesheet" href="css/contactocss.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <img src="logo/gradient-hub-design-template/8011880_Mesa de trabajo 1.png" alt="logo" style="height: 120px;", width="120px">
+        <a class="navbar-brand" href="#">Domótica Hub</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#productos">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carrusel1.jpg" class="d-block w-100" alt="Producto Destacado 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Domotica Hub</h5>
+                    <p>Descripción del producto destacado 1.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carrusel2.jpg" class="d-block w-100" alt="Producto Destacado 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Domotica Hub</h5>
+                    <p>Descripción del producto destacado 2.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carrusel3.jpg" class="d-block w-100" alt="Producto Destacado 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Domotica Hub</h5>
+                    <p>Descripción del producto destacado 3.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div><br><br>
+    <h2 class="text-center mb-4">Nuestros Productos</h2>
+    <div class="flex-container">
+        <div>
+            <div class="card2">
+                <img src="img/producto1.jpg" class="card-img-top" alt="Producto 1">
+                <div class="card-body2">
+                    <h5 class="card-title">Controlador de luz</h5>
+                    <p class="card-text">Descripción breve del controlador de luz.</p>
+                    <p class="card-text"><strong>$100</strong></p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#producto1Modal">Más detalles</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card2">
+                <img src="img/producto2.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body2">
+                    <h5 class="card-title">Google Home</h5>
+                    <p class="card-text">Descripción breve de Google Home.</p>
+                    <p class="card-text"><strong>$200</strong></p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#producto2Modal">Más detalles</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card2">
+                <img src="img/producto3.jpg" class="card-img-top" alt="Producto 3">
+                <div class="card-body2">
+                    <h5 class="card-title">Cámara de vigilancia</h5>
+                    <p class="card-text">Descripción breve de la cámara de vigilancia.</p>
+                    <p class="card-text"><strong>$300</strong></p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#producto3Modal">Más detalles</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card2">
+                <img src="img/producto2.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body2">
+                    <h5 class="card-title">Google Home</h5>
+                    <p class="card-text">Descripción breve de Google Home.</p>
+                    <p class="card-text"><strong>$200</strong></p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#producto2Modal">Más detalles</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--
+    <div class="container my-5" id="productos">
+        <h2 class="text-center mb-4">Nuestros Productos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/producto1.jpg" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Controlador de luz</h5>
+                        <p class="card-text">Descripción breve del controlador de luz.</p>
+                        <p class="card-text"><strong>$100</strong></p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#producto1Modal">Más detalles</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/producto2.jpg" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Google Home</h5>
+                        <p class="card-text">Descripción breve de Google Home.</p>
+                        <p class="card-text"><strong>$200</strong></p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#producto2Modal">Más detalles</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/producto3.jpg" class="card-img-top" alt="Producto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Cámara de vigilancia</h5>
+                        <p class="card-text">Descripción breve de la cámara de vigilancia.</p>
+                        <p class="card-text"><strong>$300</strong></p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#producto3Modal">Más detalles</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="producto1Modal" tabindex="-1" role="dialog" aria-labelledby="producto1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="producto1ModalLabel">Controlador de luz</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/producto1.jpg" class="img-fluid" alt="Producto 1">
+                    <p>Descripción detallada del Controlador de luz.</p>
+                    <ul>
+                        <li>Control remoto vía app móvil.</li>
+                        <li>Ajuste de intensidad y color de la luz.</li>
+                        <li>Programación automática de horarios.</li>
+                        <li>Compatible con sistemas de voz.</li>
+                    </ul>
+                    <p><strong>$100</strong></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Añadir al Carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="producto2Modal" tabindex="-1" role="dialog" aria-labelledby="producto2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="producto2ModalLabel">Google Home</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/producto2.jpg" class="img-fluid" alt="Producto 2">
+                    <p>Descripción detallada de Google Home.</p>
+                    <ul>
+                        <li>Asistente virtual para el hogar conectado.</li>
+                        <li>Control de dispositivos domésticos inteligentes.</li>
+                        <li>Reproducción de música desde servicios populares.</li>
+                        <li>Obtención de información y gestión de tareas por voz.</li>
+                    </ul>
+                    <p><strong>$200</strong></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Añadir al Carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="producto3Modal" tabindex="-1" role="dialog" aria-labelledby="producto3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="producto3ModalLabel">Cámara de vigilancia</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/producto3.jpg" class="img-fluid" alt="Producto 3">
+                    <p>Descripción detallada de la Cámara de vigilancia.</p>
+                    <ul>
+                        <li>Vigilancia 24/7 para seguridad en el hogar u oficina.</li>
+                        <li>Imágenes claras y nítidas tanto de día como de noche.</li>
+                        <li>Monitoreo remoto desde dispositivos móviles.</li>
+                        <li>Alertas instantáneas de movimiento o sonido.</li>
+                    </ul>
+                    <p><strong>$300</strong></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Añadir al Carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+-->
+
+    <section id="informacion" class="my-5">
+        <div class="container">
+            <h2 class="text-center mb-4">TESTIMONIOS</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card text-center shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Rodolfo</h5>
+                            <p class="card-text">Es increible el diseño que tiene la página web, ya que es facil de usar intuitiva y accesible</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card text-center shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Lissy</h5>
+                            <p class="card-text">Los productos no me llegaorn como la foto, parecia un juguete y eso no fue lo que pedi. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card text-center shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Adrian</h5>
+                            <p class="card-text">Los productos llegaron al siguiente día y con un buen empaquetado para evitar el daño de los mismos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <section id="video" class="my-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Video Promocional</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/AdGPxazvlOU" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    
+    <section id="ubicacion" class="my-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Ubicación</h2>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.4513821074083!2d-78.47930200707506!3d-0.14508714788803634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d58554e6361e3b%3A0x4c2371cc05a16a0!2sLuis%20Calisto%20595-581%2C%20Quito%20170138!5e0!3m2!1ses-419!2sec!4v1718672645762!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <p class="text-center mt-3">Encuéntranos en: Luis Calisto 595-581, Quito 170138</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2024 Domótica Hogar. Todos los derechos reservados.</p>
+            <p>
+                <a href="https://www.facebook.com" class="text-white">Facebook</a> |
+                <a href="https://www.twitter.com" class="text-white">Twitter</a> |
+                <a href="https://www.instagram.com" class="text-white">Instagram</a>
+            </p>
+            <p>Síguenos en nuestras redes sociales para más actualizaciones.</p>
+            <p>Teléfono: 0960444123</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
